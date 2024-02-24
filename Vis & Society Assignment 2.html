@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://vis-society.github.io/assignments/A2_report.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Vis &amp; Society Assignment 2</title>
+	<link rel="stylesheet" href="./Vis &amp; Society Assignment 2_files/report.css">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1156.0" data-gr-ext-installed="">
+	<header>
+		<h1>
+			<small>Assignment 2</small>
+			Exploratory Data Analysis
+		</h1>
+
+		<p>
+			<strong>Stephen Wilson</strong> — <em>swilson@mit.edu</em>
+		</p>
+	</header>
+	<main>
+		<section>
+			<h2>Subtheme: Housing for the Rich</h2>
+
+			<h3>Overall Analysis Questions</h3>
+			<ol>
+				<li>Does building more luxury buildings create more affordable housing? <br>
+					My motivation behind this question is that throughout the reading “Boston Towers of Wealth”, one of the main justifications provided by the real estate developers was that building the luxury buildings actually created more affordable housing and opportunities. Walsh’s claim from the reading shows their perspective: “Oftentimes people will talk about luxury buildings, saying that, you know, we’re not building for the poor,” said Walsh at One Dalton’s topping-off ceremony in 2018. “But what this building actually does, it’s creating opportunities and revenue for middle-class and low-income housing in the city of Boston.”
+					</li>
+				<li>Is there a relationship between absentee buyers and the location of luxury housing? <br>
+					My motivation for this question was my curiosity as to whether there is a relationship between absentee buyers and luxury housing which could provide insight into if there is perhaps an area of Boston that is more ripe for speculation and if there is a correlation with the prices of the area around it.
+					</li>
+				<li>Is there a profit incentive for providing affordable housing or is it a net loss or always lower profit for real estate developers to do so? <br>
+					My motivation for this is that I saw in the reading that it says “Developers disproportionately chase profits at the highest end of the Boston market,” however,  I was wondering whether the data suggests that it is always more profitable to build luxury buildings, or whether it would still be profitable and a reasonable business decision to invest in affordable housing as well. 
+					</li>
+			</ol>
+		</section>
+
+		<section>
+			<h2>Discoveries &amp; Insights</h2>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet1.png" alt="">
+				<figcaption>
+				This was done as an overall exploratory data visualization to get familiar with the relationship between house sale price and location. This visualization starts to show that zip code 02116 has the highest sum of real estate sales in Boston.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet2.png" alt="">
+				<figcaption>
+				This was another exploratory data visualization aimed at exploring the "yearbuilt" feature of the dataset. I was curious as to seeing if there was a trend between the year a building was built and its sale price. The visualization does indeed suggest that there is a positive correlation between the year it was built and its sale price.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet3.png" alt="">
+				<figcaption>
+				This exploratory visualization was aimed at exploring the "buyer purchases" and "usage" features of the dataset to unveil any relationships that might be present. This visualization is useful in showing that Condominium ownership greatly outweighs other Property uses. This could be a potential suggestion for why so many companies build condominiums.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet4.png" alt="">
+				<figcaption>
+				This visualization continues the exploration from the previous visualization by further showing the breakdown of property uses not including condominiums. For instance, single family residences are the second largest property usage which is not entirely surprising.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet5.png" alt="">
+				<figcaption>
+				This visualization works towards answering the question "Does building more luxury buildings create more affordable housing?" We can see the trend that since 1999, the number of property purchases by non-investors (i.e. people) have continued to decrease, while the number of property purchases by small, medium, and large investors has increased. If we associate luxury housing purchases as purchases made by investors, then this suggests that increasing the number of luxury housing might not increase the number of affordable housing.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet6.png" alt="">
+				<figcaption>
+				The following visualization provoked the follow-up question "Given the high volume of small investor purchases, what is the sum of the property sales prices of small investors compared to non-investors?" This visualization surprisingly reveals that non-investors are actually the ones paying for the higher sale prices. This could be due to the prices being aggregated over time since in the past non-investors did have more housing purchases so aggregated over time it could have a higher total amount of sale purchases.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet7.png" alt="">
+				<figcaption>
+				This aims to answer the question "Is there a relationship between absentee buyers and the location of luxury housing?" The figure shows that, given the high amount of properties owned and the low amount of current owners, the 3 zip codes with the most absentee owners are 02116, 02118, and 02115.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet8.png" alt="">
+				<figcaption>
+				This causes me to ponder another follow-up question "How are the number of sales and the aggregate sale prices related?"
+				 This visualization helps to clarify that between the different types of investors, while institutional investors have the least number of property purchases, they spent the second highest on property.
+				  Further, while non-investors do have the highest number of purchases and spent the most, that is most likely due to there being many families trying to buy property compared to there being a lower number of investors.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/images/sheet9.png" alt="">
+				<figcaption>
+				The final overall question that this visualization answers is "Is there a profit incentive for providing affordable housing or is it a net loss or always lower profit for real estate developers to do so?" The visualization shows that non-investor sales have more annual value than other individual investor types except for the institutional investor sales.
+				 This shows that there is quite significant value to be had from affordable housing (non-investor) purchases.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section>
+			<h2>Summary</h2>
+
+			<p>In summary, the visualizations do not suggest that building more luxury housing causes more affordable housing to be built (as seen by the decrease in non-investor property purchases over time), there is a potential relationship between absentee buyers and the location since there are distinct zip codes in Boston where this claim could be made, and finally, there is an incentive for building more affordable housing because there is potential for high annual values from those properties to be had, so building more for more people will naturally lead to profit in the long-term.</p>
+		</section>
+	</main>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
